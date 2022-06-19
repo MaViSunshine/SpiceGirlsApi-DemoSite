@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+    	<meta name="description" content="This is where your description goes">
+    	<meta name="keywords" content="one, two, three">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+		<title>SPICE GIRLS API DEMO</title>
+
+		<!-- external CSS link -->
+		<link rel="stylesheet" href="css/normalize.css">
+		<link rel="stylesheet" href="css/style.css">
+	</head>
+	<body>
+
+		<section>
+			<h1>Get a Spice Girl's Song</h1>
+			<select id="select-album" title="select-discography" name="select2">
+				<option value="first">First Album</option>
+				<option value="second">Second Album</option>
+				<option value="third">Third Album</option>
+			</select>
+			<select id="select-track" title="select-track" name="select3">
+				<option value="01">Track 01</option>
+				<option value="02">Track 02</option>
+				<option value="03">Track 03</option>
+				<option value="04">Track 04</option>
+				<option value="05">Track 05</option>
+				<option value="06">Track 06</option>
+				<option value="07">Track 07</option>
+				<option value="08">Track 08</option>
+				<option value="09">Track 09</option>
+				<option value="10">Track 10</option>
+				<option value="11">Track 11</option>
+			</select>
+			
+			<button type="button" class="sbtn" id="btn2" name="button2">Get the Song</button>
+			
+		</section>
+
+		<section>	
+			<div>
+				<span class="one-line">Track Name: </span><h3 class="one-line" id="track-name"></h2>
+			</div>
+			<div>
+				<span class="one-line">Track Duration: </span><h3 class="one-line" id="track-length"></h3>
+			</div>
+		<iframe id="track-audio" style="border-radius:12px" src="https://open.spotify.com/embed/track/1Je1IMUlBXcx1Fz0WE7oPT?utm_source=generator" width="100%" height="380" title="spotify player" frameBorder="0" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"></iframe>
+		
+		
+	
+	<script type="text/javascript" src="js/main.js"></script>
+		<script type="text/javascript" src="js/songs.js"></script>
+	</body>
+</html>
+				

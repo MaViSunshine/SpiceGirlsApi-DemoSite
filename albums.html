@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+    	<meta name="description" content="This is where your description goes">
+    	<meta name="keywords" content="one, two, three">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+		<title>SPICE GIRLS API DEMO</title>
+
+		<!-- external CSS link -->
+		<link rel="stylesheet" href="css/normalize.css">
+		<link rel="stylesheet" href="css/style.css">
+	</head>
+	<body>
+
+		<section>
+			<h1>Get a Spice Girl Album</h1>
+			<select title="select-discography" name="select2">
+				<option value="first">First Album</option>
+				<option value="second">Second Album</option>
+				<option value="third">Third Album</option>
+			</select>
+	
+			<button type="button" id="btn2" name="button2">Get Album</button>
+			<article>
+				<div>
+					<img id="album-cover" src="" alt="Album Front Cover">
+				</div>
+					<div>
+						<span class="one-line">Album Name: </span><h2 class="one-line" id="album-name"></h2>
+					</div>
+					<div>
+						<span class="one-line">Album Length: </span><h2 class="one-line" id="album-time"></h2>
+					</div>
+					<div>
+						<span class="one-line">Release Date: </span><h2 class="one-line" id="album-debut"></h2>
+					</div>
+					<div>
+						<span class="one-line">Album Genre: </span><h2 class="one-line" id="album-genre"></h2>
+					</div>
+			</article>
+			<!-- <button type="button" class="sbtn" id="btn3" name="button3">Get track Info</button> -->
+		</section>
+
+		<script type="text/javascript" src="js/albums.js"></script>
+	</body>
+</html>
