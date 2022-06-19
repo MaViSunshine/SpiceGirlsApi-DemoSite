@@ -1,0 +1,184 @@
+/******************************************
+/* CSS
+/*******************************************/
+
+/* Box Model Hack */
+*{
+  box-sizing: border-box;
+  margin: 0 auto;
+  max-width: 80vw;
+}
+
+/******************************************
+/* LAYOUT
+/*******************************************/
+img{
+  display: block;
+  margin-top: 1%;
+}
+
+body{
+  background-image: url(../images/spicegirls-shoes.png);
+  background-repeat: repeat;
+  background-size: 30%;
+}
+
+#main-section{
+  width: 60%;
+  margin: 0 auto;
+}
+section{
+  background-color: white;
+  width: 50%;
+  padding: 3%;
+  margin: 0 auto;
+}
+
+.rtn-line {
+  margin: 3%;
+  font-size: 1.5rem;
+  display: block;
+
+}
+.menu-buttons{
+ border-radius: 50%;
+ height: 160px;
+ width: 160px;
+ margin: 3.5%;
+ box-shadow: 1.1rem 1.1rem;
+}
+.menu-buttons, #btn1, #btn2, #btn3 {
+  border: 2px solid rgb(183, 40, 88);
+  background-color: rgb(255, 192, 203);
+ color: rgb(183, 40, 88);
+ font-size: 1.3rem;
+ font-weight: 700;
+}
+
+#btn1, #btn2, #btn3 {
+    width: 160px;
+    height: 40px;
+    padding: 2% 1%;
+    text-decoration: none;
+    cursor: pointer;
+    border: none;
+    border-radius: 12px; 
+    box-shadow: 4px 4px rgb(183, 40, 88);
+  }
+
+h1, .apilink {
+  font-size: 3rem;
+  font-weight: 900;
+  color: rgb(183, 40, 88);
+  text-shadow: 2px 3px magenta;
+  text-align: center;
+  margin: 3%;
+}
+
+p{
+  font-size: 1.5rem;
+  font-weight: 500;
+  margin-top: 5%;
+}
+
+p, .menu-buttons{
+  font-family: Cambria, Georgia, serif;
+}
+
+.apilink{
+  margin: 7% 28%;
+}
+
+select, option{
+  height: fit-content;
+  font-size: 2rem;
+}
+span, h2, h3, h4, h5{
+  font-size: 2rem;
+}
+
+span{
+  color: rgb(183, 40, 88);
+}
+
+#track-video{
+  text-anchor: start;
+  width: 20%;
+  margin-right: 80%;
+}
+
+.one-line{
+  /* border: 4px solid red; */
+  display: inline-block;
+}
+
+/******************************************
+/* ADDITIONAL STYLES
+/*******************************************/
+@media all and (max-width: 1000px) {
+
+  body{
+    background-size: 50%;
+  }
+
+  #main-section{
+    width: 80%;
+  }
+  
+  img{
+    max-width: 80%;
+  }
+  section{
+    width: 100vw
+  }
+  #track-video{
+    font-size: 1rem;
+  }
+  h1, .apilink{
+    font-size: 2rem;
+  }
+  .apilink {
+    margin-left: 40%;
+  }
+  .menu-buttons{
+    height: 80px;
+    margin: 3%;
+  }
+
+}
+
+@media all and (max-width: 650px) {
+
+  body{
+    background-size: 50%;
+  }
+
+  .apilink {
+    margin-left: 25%;
+  }
+  .menu-buttons{
+    height: 80px;
+    margin-left: 25%;
+  }
+}
+@media all and (max-width: 418px) {
+  .apilink {
+    margin-left: 18%;
+  }
+}
+@media all and (max-width: 364px) {
+  .apilink {
+    margin-left: 13%;
+  }
+  .menu-buttons{
+    height: 80px;
+    margin-left: 12%;
+  }
+  @media all and (max-width: 300px){
+    body{
+      margin-right: 0;
+      max-width: min-content;
+    }
+  }
+
+}
